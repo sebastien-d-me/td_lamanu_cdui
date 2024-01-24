@@ -28,7 +28,7 @@ Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main
 
 Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td3_box_universe/)
 
-## TD 4 - Flex
+## TD 4 - Les blocs de couleurs (Flex)
 
 - Réalisation en HTML / CSS de blocs de couleurs en flex.
 
