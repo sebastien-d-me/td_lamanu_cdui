@@ -1,0 +1,143 @@
+/** Fonts **/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+
+/** General **/
+body {
+    background: linear-gradient(to bottom, #000000, #313131);
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/** Link **/
+a {
+    color: currentColor;
+    display: inline-block;
+    padding: 10px;
+    transition: color 400ms ease-in-out;
+}
+
+a:hover {
+    color: #20C0FF;
+}
+
+
+/** Layout **/
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.app-top {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.app-bottom {
+    background-color: #313131;
+    color: #FFFFFF;
+    display: flex;
+    padding: 20px;
+}
+
+
+/** Sidebar **/
+.app-nav {
+    align-items: center;
+    background-color: #313131;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50px;
+}
+
+
+/** Album + Tracklist **/
+.app-content {
+    width: calc(100% - 50px);
+}
+
+
+/** Album **/
+.app-content .album {
+    display: flex;
+    padding: 20px;
+}
+
+.app-content .cover {
+    margin-right: 20px;
+}
+
+.app-content .album-infos {
+    color: #FFFFFF;
+}
+
+.app-content .album-infos h1 {
+    font-size: 3em;
+}
+
+
+/** Tracklist **/
+.app-content .tracklist {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.app-content .track-item {
+    border-top: 1px solid #FFFFFF1A;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-between;
+    transition: color 400ms ease-in-out;
+}
+
+.app-content .track-item:hover {
+    color: #20C0FF;
+    cursor: pointer;
+}
+
+.app-content .tracklist p {
+    margin: 0;
+    padding: 10px;
+}
+
+
+/** Player **/
+.app-bottom .current {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.app-bottom .current-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.app-bottom .author {
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.app-bottom .track {
+    color: #20C0FF;
+    margin: 0 0 10px;
+}
+
+.app-bottom .controls {
+    align-items: center;
+    border-left: 1px solid #FFFFFF1A;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
