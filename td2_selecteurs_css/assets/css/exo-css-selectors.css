@@ -1,0 +1,166 @@
+/** Import de la font Montserrat */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+
+/** General **/
+* {
+    background-color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    line-height: 150%;
+}
+
+
+/** Header **/
+#site-header {
+    background: #FFFFFFE6;
+    border-bottom: 1px solid #DDDDDD;
+    color: #CCCCCC;
+    padding: 2em 0;
+    position: sticky;
+    top: 0;
+}
+
+
+/** Title **/
+h1 {
+    text-align: center;
+}
+
+
+/** Pantone Logo **/
+h1 > span {
+    background: url("../img/logo-pantone.png") no-repeat;
+    display: block;
+    height: 43px;
+    margin: auto;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 250px;
+}
+
+
+/** Main **/
+main {
+    margin: auto;
+    width: 60vw;
+}
+
+
+/** Colors **/
+mark {
+    border-radius: 3px;
+    padding: 0 0.25em;
+}
+
+.cyan {
+    background: #00FFFF;
+}
+
+.magenta {
+    background: #FF00FF;
+}
+
+.yellow {
+    background: #FFFF00;
+}
+
+.black {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+
+/** Pantone of the year **/
+.pantone-of-the-year-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+}
+
+
+/** Pantone of the year - Titles **/
+.pantone-of-the-year-item > h3 {
+    align-items: flex-end;
+    background: #000000;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 3em;
+    height: 2.5em;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0.25em;
+}
+
+
+/** Pantone of the year - Refs **/
+.pantone-of-the-year-item > .ref {
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/** Pantone of the year - Descriptions **/
+.pantone-of-the-year-item > p {
+    font-size: 0.75em;
+    line-height: 1.25em;
+    text-align: justify;
+}
+
+
+/** Pantone of the year - Backgrounds **/
+.year-2020 > h3 {
+    background: #0F4C81;
+}
+.year-2020 > h3:hover {
+    background: #FFFFFF;
+    color: #0F4C81;
+}
+
+.year-2019 > h3 {
+    background: #FF6F61;
+}
+.year-2019 > h3:hover {
+    background: #FFFFFF;
+    color: #FF6F61;
+}
+
+.year-2018 > h3 {
+    background:#604C8D;
+}
+.year-2018 > h3:hover {
+    background: #FFFFFF;
+    color: #604C8D;
+}
+
+.year-2017 > h3 {
+    background: #88B04B;
+}
+.year-2017 > h3:hover {
+    background: #FFFFFF;
+    color: #88B04B;
+}
+
+.year-2016 > h3 {
+    background: #93A9D1;
+    background: linear-gradient(90deg, #93A9D1 0%, #93A9D1 50%, #F7CACA 50%, #F7CACA 100%);
+    color: #FFFFFF;
+}
+.year-2016 > h3:hover {
+    background: #FFFFFF;
+}
+.year-2016 > h3::before {
+    color: #FFFFFF;
+    content: "20";
+}
+.year-2016 > h3::after {
+    color: #FFFFFF;
+    content: "16";
+}
+.year-2016:hover > h3::before {
+    color: #93A9D1;
+}
+.year-2016:hover > h3::after {
+    color: #F7CACA;
+}
