@@ -32,6 +32,6 @@ Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td3_box_un
 
 - Réalisation en HTML / CSS de blocs de couleurs en flex.
 
-Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/td4_flex)
+Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/td4_blocs_de_couleurs)
 
-Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td4_flex/)
+Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td4_blocs_de_couleurs/)
