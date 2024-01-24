@@ -1,0 +1,114 @@
+/** Variables **/
+:root {
+    --black: #2C3E50;
+    --blue: #2980B9;
+    --grey: #62A2A3;
+    --light-green: #2ECC71;
+    --light-orange: #E67E22;
+    --dark-green: #16A085;
+    --dark-orange: #D35400;
+    --red: #E74C3C;
+    --yellow: #F39C12;
+}
+
+
+/** General **/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/** Main **/
+.main__block {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    margin: auto;
+    width: 80vw;
+}
+
+
+/** Blocks **/
+/* List */
+.blocks__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 800px;
+}
+
+/* Rows */
+.blocks__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.blocks__row--special {
+    flex: 1 0 65%;
+}
+
+/* Type */
+.block--small {
+    height: 22.5px;
+}
+
+.block--medium {
+    height: 30px;
+}
+
+.block--large {
+    height: 60px;
+}
+
+.block--x-large {
+    height: 80px;
+}
+
+/* Colors */
+.block--light-green {
+    background-color: var(--light-green);
+    flex: 1 0 80%;
+}
+
+.block--blue {
+    background-color: var(--blue);
+    flex: 1 0 20%;
+}
+
+.block--red {
+    background-color: var(--red);
+    flex: 1 0 35%;
+}
+
+.block--light-orange {
+    background-color: var(--light-orange);
+    flex: 1 0 50%;
+}
+
+.block--grey {
+    background-color: var(--grey);
+    flex: 1 0 50%;
+}
+
+.block--yellow {
+    background-color: var(--yellow);
+    flex: 1 0 calc(100% / 3);
+}
+
+.block--dark-green {
+    background-color: var(--dark-green);
+    flex: 1 0 calc(100% / 3);
+}
+
+.block--dark-orange {
+    background-color: var(--dark-orange);
+    flex: 1 0 calc(100% / 3);
+}
+
+.block--black {
+    background-color: var(--black);
+    flex: 1 0 100%;
+}
