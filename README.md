@@ -43,3 +43,11 @@ Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td4_blocs_
 Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/td5_spotify)
 
 Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td5_spotify/)
+
+## TD 6 - Grid
+
+- Réalisation d'une grid en HTML / CSS.
+
+Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/td6_grid)
+
+Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td6_grid/)

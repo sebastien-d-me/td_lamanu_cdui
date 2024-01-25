@@ -1,0 +1,98 @@
+/** Variables **/
+:root {
+    --blue: #A7C0DE;
+    --brown: #CC9492;
+    --grey: #ECECEC;
+    --green: #80D7A7;
+    --pink: #FFB2FF;
+    --red: #FF8080;
+    --white: #FFFFFF;
+    --yellow: #FFFF80;
+}
+
+
+/** General **/
+* {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--white);
+}
+
+
+/** Container **/
+.container {
+    display: grid;
+    font-weight: bold;
+    gap: 0 20px;
+    grid-template-areas:
+    "header__logo header__navigation header__navigation header__navigation header__navigation header__cart"
+    "main__options main__options main__options main__options main__options main__options"
+    "main__content main__content main__content main__content main__empty main__sidebar"
+    "footer footer footer footer footer footer";
+    grid-template-rows: 120px 50px auto 50px;
+    height: 100vh;
+    text-align: center;
+    width: 100vw;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+
+/** Header **/
+/* Logo */
+.header__logo {
+    background-color: var(--blue);
+    grid-area: header__logo;
+}
+
+/* Navigation */
+.header__navigation {
+    background-color: var(--red);
+    grid-area: header__navigation;
+}
+
+/* Cart */
+.header__cart {
+    background-color: var(--green);
+    grid-area: header__cart;
+}
+
+
+/** Main **/
+/* Options */
+.main__options {
+    background-color: var(--pink);
+    grid-area: main__options;
+}
+
+/* Content */
+.main__content {
+    background-color: var(--grey);
+    grid-area: main__content;
+}
+
+/* Empty */
+.main__empty {
+    grid-area: main__empty;
+}
+
+/* Sidebar */
+.main__sidebar {
+    background-color: var(--yellow);
+    grid-area: main__sidebar;
+}
+
+
+/** Footer **/
+.footer__block {
+    background-color: var(--brown);
+    grid-area: footer;
+}
