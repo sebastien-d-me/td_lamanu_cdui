@@ -1,0 +1,133 @@
+/** Variables **/
+:root {
+    --blue: #4464A1;
+    --burgundy: #B03532;
+    --cyan: #3D8BB1;
+    --green: #59A627;
+    --light-blue: #33A8A5;
+    --orange: #DA6F2B;
+    --purple: #6A478F;
+    --red: #E03F3F;
+    --turquoise: #30997A;    
+    --white: #FFFFFF;
+}
+
+
+/** General **/
+* {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/** Main **/
+.main__block {
+    margin: auto;
+    text-align: center;
+}
+
+
+/** Grids **/
+.grid {
+    display: grid;
+    gap: 30px;
+    margin: auto;
+    max-width: 1600px;
+    text-align: left;
+    width: 90%;
+}
+
+
+/** Blocks **/
+.block {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    padding-left: 30px;
+}
+
+.block--1 {
+    background-color: var(--burgundy);
+}
+.block--2 {
+    background-color: var(--light-blue);
+}
+.block--3 {
+    background-color: var(--turquoise);
+}
+.block--4 {
+    background-color: var(--purple);
+}
+.block--5 {
+    background-color: var(--orange);
+}
+.block--6 {
+    background-color: var(--cyan);
+}
+.block--7 {
+    background-color: var(--red);
+}
+.block--8 {
+    background-color: var(--green);
+}
+.block--9 {
+    background-color: var(--blue);
+}
+
+
+/** Grid - 1 **/
+.grid__1 {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 10px auto 50px auto;
+}
+
+.grid__1 .block {
+    justify-content: center;
+    height: 100px;
+}
+
+
+/** Grid - 2 **/
+.grid__2 {
+    grid-template-areas:
+    "block--1 block--2 block--3 block--4"
+    "block--5 block--empty-2-1 block--empty-2-2 block--6"
+    "block--7 block--empty-3-1 block--8 block--9";
+    grid-template-rows: 150px 60px 80px;
+    margin-top: 10px;
+}
+
+.grid__2 .block {
+    padding: 30px 0 30px 30px;
+}
+
+.grid__2 .block--1 {
+    grid-area: block--1;
+}
+.grid__2 .block--2 {
+    grid-area: block--2;
+}
+.grid__2 .block--3 {
+    grid-area: block--3;
+}
+.grid__2 .block--4 {
+    grid-area: block--4;
+}
+.grid__2 .block--5 {
+    grid-area: block--5;
+}
+.grid__2 .block--6 {
+    grid-area: block--6;
+}
+.grid__2 .block--7 {
+    grid-area: block--7;
+}
+.grid__2 .block--8 {
+    grid-area: block--8;
+}
+.grid__2 .block--9 {
+    grid-area: block--9;
+}
