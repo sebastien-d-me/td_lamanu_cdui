@@ -51,3 +51,19 @@ Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td5_spotif
 Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/td6_grid)
 
 Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/td6_grid/)
+
+## Exercice - Grid
+
+- Réalisation de deux grids en HTML / CSS.
+
+Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/exercice_grid)
+
+Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/exercice_grid/)
+
+## Exercice - Grid - Hover
+
+- Réalisation d'une grid en HTML / CSS avec des effets hover.
+
+Lien du repo : [Lien](https://github.com/sebastien-d-me/td_lamanu_cdui/tree/main/exercice_grid_hover)
+
+Lien du site : [Lien](https://sebastien-d-me.github.io/td_lamanu_cdui/exercice_grid_hover/)
